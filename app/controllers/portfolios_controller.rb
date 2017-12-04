@@ -1,4 +1,4 @@
-class PortfoliosController < ApplicationController
+railsclass PortfoliosController < ApplicationController
   def index
     @portfolio_items = Portfolio.all
   end
@@ -39,7 +39,7 @@ class PortfoliosController < ApplicationController
     @portfolio_item = Portfolio.find(params[:id])
   end
 
-   def destroy
+  def destroy
     # Perform the lookup
     @portfolio_item = Portfolio.find(params[:id])
 
@@ -51,4 +51,5 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
     end
   end
+
 end
