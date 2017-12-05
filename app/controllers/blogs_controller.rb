@@ -57,15 +57,15 @@ class BlogsController < ApplicationController
     end
   end
 
-def toggle_status
+  def toggle_status
     if @blog.draft?
       @blog.published!
     elsif @blog.published?
       @blog.draft!
     end
-
+        
     redirect_to blogs_url, notice: 'Post status has been updated.'
-end
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
