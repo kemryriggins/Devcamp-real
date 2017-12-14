@@ -1,0 +1,7 @@
+<div class="blog-header">
+	<div class="container">
+    <h1 class="blog-title">Kemry's Blogs</h1>
+    <p class="lead blog-description">Please review some of these posts I've put here, if you have any ideas or suggestions, please contact me.</p>
+    <%= link_to 'New Post (Admin Only)', new_blog_path if logged_in?(:site_admin) %>
+  </div>
+</div>
