@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -123,7 +122,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: white;
 }
 
 
@@ -193,4 +192,26 @@ body {
   margin-left: 15px;
   margin-right: 20px;
 }
+<<<<<<< HEAD
 >>>>>>> design
+=======
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('840331843.mp4') no-repeat;
+  background-size: cover;
+}
+
+.app-footer {
+  color: white;
+}
+>>>>>>> 114e61ea26d983b170277e1eb37e74cd3c16f1b6

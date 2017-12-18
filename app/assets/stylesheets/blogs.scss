@@ -63,7 +63,7 @@ h6, .h6 {
 
 /* Active state gets a caret at the bottom */
 .nav-link.active {
-  color: #fff;
+  color: #3b3b3b;
 }
 .nav-link.active:after {
   position: absolute;
@@ -93,7 +93,7 @@ h6, .h6 {
   margin-bottom: 0;
   font-size: 3rem;
   font-weight: normal;
-  color: #white;
+  
 }
 .blog-description {
   font-size: 1.5rem;
@@ -132,6 +132,7 @@ h6, .h6 {
 /* Pagination */
 .blog-pagination {
   margin-bottom: 4rem;
+  color: #555555;
 }
 .blog-pagination > .btn {
   border-radius: 2rem;
@@ -144,6 +145,7 @@ h6, .h6 {
 
 .blog-post {
   margin-bottom: 4rem;
+  color: #220306;
 }
 .blog-post-title {
   margin-bottom: .25rem;
@@ -151,7 +153,7 @@ h6, .h6 {
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #999;
+  color: #110103;
 }
 
 

@@ -13,7 +13,9 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
-/yarn-error.log
-
+# Ignore Byebug command history file.
 .byebug_history
+
+# I don't want to show my secrets
+/config/secrets.yml
+.env
