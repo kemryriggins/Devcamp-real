@@ -2,6 +2,6 @@
 	<div class="container">
     <h1 class="blog-title">Forum</h1>
     <p class="lead blog-description">This is a forums/blogs section for everyone to talk about what they've seen here on the website, add any suggestions and a small overview of the applications I've created, "Updates, New Apps, etc." If you have any more questions please <a href="/contact" "email me">contact me.</a></p>
-    <%= link_to 'New Post', new_blog_path %>
+    <%= link_to 'New Post', new_blog_path if logged_in?(:site_admin) %>
   </div>
 </div>
