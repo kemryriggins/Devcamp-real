@@ -164,10 +164,11 @@ h6, .h6 {
  */
 
 .blog-footer {
+  margin-top: 20px;
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #transparent;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
@@ -180,4 +181,17 @@ h6, .h6 {
 
 .social-links li {
   font-size: 2.5em;
+}
+
+.comment-card > .card {
+  margin-top: 15px;
+}
+
+.comment-attribution {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.comment-name {
+  font-weight: 700;
 }
