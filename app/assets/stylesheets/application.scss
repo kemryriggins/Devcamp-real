@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "gritter";
+
 
 /*
  * Globals
@@ -34,6 +36,15 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Work Sans', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -164,11 +175,6 @@ body {
  * Custom Styles
  */
 
-<<<<<<< HEAD
- .card-block {
-   color: black;
- }
-=======
 .card-block {
   color: black;
   text-align: left;
@@ -192,9 +198,6 @@ body {
   margin-left: 15px;
   margin-right: 20px;
 }
-<<<<<<< HEAD
->>>>>>> design
-=======
 
 #background {
   position: fixed;
@@ -207,11 +210,50 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('840331843.mp4') no-repeat;
+  background: image-url('atoms.mp4') no-repeat;
   background-size: cover;
 }
 
 .app-footer {
   color: white;
 }
->>>>>>> 114e61ea26d983b170277e1eb37e74cd3c16f1b6
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 20px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: dark;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
