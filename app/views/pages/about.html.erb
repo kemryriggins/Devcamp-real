@@ -7,30 +7,14 @@
 		<div class="row">
   		<div class="col-md-4">
     		<%= image_tag "aboutme.jpg", width: 260, alt: "profile image" %>
-        <div class="skills">
-          <% @skills.each do |skill| %>
-            <div class="skill">
-              <h4><%= skill.title %></h4>
-              <div class="progress">
-                <div
-                  class="progress-bar progress-bar-striped bg-warning"
-                  role="progressbar"
-                  aria-valuenow="<%= skill.percent_utilized %>"
-                  aria-valuemax="100"
-                  style="width: <%= skill.percent_utilized %>%"
-                ></div>
-              </div>
-            </div>
-          <% end %>
-        </div>
       </div>
-			
+
 			<div class="col-md-8"
 					<p>Slowly growing in the tech Industry, Junior Web Developer. I attended Salt Lake Community College, decided It wasn't for me and enrolled in Bottega taught by Jordan Hudgens, creator of Devcamp. I've learned valuable assets from this bootcamp that will show in real world scenarios. Knowledgeable in Ruby on Rails, Javascript and Python. Please take a look at my portofolio of some projects I've created for school and some I've just decided to play around with in my free time. If you wanted to contact me for a project or anything else, please go <p><a href="/contact" "email me">Here</a></p>
         
         <p>
           <button
-            class="btn btn-warning"
+            class="btn btn-info"
             type="button"
             data-toggle="collapse"
             data-target="#jobHistory"
@@ -41,7 +25,7 @@
           </button>
 
           <button
-            class="btn btn-warning"
+            class="btn btn-info"
             type="button"
             data-toggle="collapse"
             data-target="#education"
