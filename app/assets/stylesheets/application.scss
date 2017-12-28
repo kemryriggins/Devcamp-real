@@ -19,8 +19,8 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #333;
-  border: .05rem solid #333;
+  background-color: #fff;
+  border: .05rem solid #fff;
 }
 
 
@@ -33,7 +33,7 @@ body {
   height: 100%;
 }
 body {
-  color: #fff;
+  color: #333;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
