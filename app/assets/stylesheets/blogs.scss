@@ -51,7 +51,8 @@ h6, .h6 {
 
 .blog-masthead {
   margin-bottom: 3rem;
-  background-color: #2E2E2E;
+  background: image-url('white.png') no-repeat;
+  background-size: cover;
   color: #333;
 }
 
@@ -216,7 +217,7 @@ html {
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-instagram {
-  color: white;
+  color: #9b111e radial gradient;
 }
 
 /* Pagination */
@@ -297,17 +298,3 @@ html {
   margin-top: 20px;
 }
 
-#background {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: image-url('white.png') no-repeat;
-  background-size: cover;
-}
