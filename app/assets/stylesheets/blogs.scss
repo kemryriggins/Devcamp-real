@@ -137,11 +137,6 @@ h6, .h6 {
 html {
   font-size: 20px;
 }
-body {
-  background-color: #ccc;
-  padding: 50px;
-  text-align: center;
-}
 
 /* Wrapper */
 .icon-button {
@@ -219,9 +214,9 @@ body {
   color: #db5a3c;
 }
 .icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-google-plus {
-  color: white;
+.icon-button:hover .icon-github,
+.icon-button:hover .icon-instagram {
+  color: transparent;
 }
 
 /* Pagination */
